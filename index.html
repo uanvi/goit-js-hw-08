@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 7</title>
+
+    <!-- Modern Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <ul class="gallery">
-      <li class="gallery-item">
-        <a class="gallery-link" href="large-image.jpg">
-          <img
-            class="gallery-image"
-            src="small-image.jpg"
-            data-source="large-image.jpg"
-            alt="Image description"
-          />
-        </a>
-      </li>
-    </ul>
+    <div class="gallery-container">
+      <ul class="gallery"></ul>
+    </div>
 
     <script src="./js/gallery.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
   </body>
 </html>

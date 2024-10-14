@@ -1,0 +1,57 @@
+:root {
+}
+
+body {
+  background: var(--black);
+}
+
+ul,
+ol {
+  list-style-type: none;
+  text-decoration: none;
+  color: currentColor;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery-container {
+  width: 1440px;
+  padding: 24px 0;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  width: 1128px;
+  margin: auto;
+  padding: 0;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.modal-image {
+  display: flex;
+}
+
+.arrow {
+  align-self: center;
+  stroke: white;
+  stroke-opacity: 0.5;
+}
+
+.arrow:hover {
+  height: 40px;
+}
